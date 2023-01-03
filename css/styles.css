@@ -36,13 +36,13 @@ body {
 
 .logo {
 	font-family: 'Raleway';
-		font-weight: 800;
-		font-size: 18px;
-		line-height: 24px;
-		align-items: center;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		color: var(--main-dark-color);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: calc(24 / 18);
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--main-dark-color);
 }
 
 .accent {
@@ -59,7 +59,7 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: var(--main-dark-color)
 }
@@ -73,7 +73,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
 	color: #434455;
 }
@@ -82,4 +82,96 @@ body {
 .contact-item-link:focus {
 	color:var(--hover-color);
 }
+/* --Hero-- */
 
+.hero {
+	background-color: var(--main-dark-color);
+}
+
+.hero-title {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 56px;
+	line-height: calc(60 / 56);
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: white;
+}
+
+.hero-btn {
+	font-family: inherit;
+	background-color: #4d5ae5;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+}
+.hero-btn:hover
+.hero-btn:focus {
+	color: var(--hover-color)
+}
+
+/* --Main Text-- */
+
+.list-title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	letter-spacing: 0.02em;
+	color: var(--main-dark-color);
+}
+
+.text {
+	font-size: 16px;
+	line-height: calc(24 / 16);
+}
+
+.title {
+	font-family: 'Roboto';
+	font-weight: 600;
+	font-size: 36px;
+	line-height: calc(40 / 36);
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--main-dark-color);
+}
+
+.list-team {
+	background-color: var(--main-light-color);
+}
+
+/* --Button breadcrumbs-- */
+
+.breadcrumbs-btn {
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+	background-color: var(--main-light-color);
+	border: 1px solid #e7e9fc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.breadcrumbs-btn:hover,
+.breadcrumbs-btn:focus {
+	background-color: var(--hover-color);
+}
+
+/* --Footer-- */
+
+.footer {
+	background-color: var(--main-dark-color);
+}
+
+.footer-text {
+	color: #e7e9fc;
+}

@@ -1,0 +1,47 @@
+/* --Utility-- */
+:root {
+	--main-dark-color: #2E2F42;
+	--main-light-color: #F4F4FD;
+	--color-hover-effect: #404bbf;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* --Logo-- */
+
+/* .link {
+	text-decoration: none;
+} */
+
+.accent {
+	color: #4D5AE5;
+}
+
+.accent-light {
+	color: var(--main-light-color);
+}

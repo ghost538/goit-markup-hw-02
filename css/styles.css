@@ -55,7 +55,6 @@ body {
 /* --Nav-- */
 
 .menu-item-link {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -63,13 +62,12 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-dark-color)
 }
-.menu-item-link:hover
+.menu-item-link:hover,
 .menu-item-link:focus {
 	color: var(--hover-color)
 }
 
 .contact-item-link {
-	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -78,7 +76,7 @@ body {
 	color: #434455;
 }
 
-.contact-item-link:hover 
+.contact-item-link:hover,
 .contact-item-link:focus {
 	color:var(--hover-color);
 }
@@ -107,9 +105,10 @@ body {
 	color: #ffffff;
 	cursor: pointer;
 }
-.hero-btn:hover
+.hero-btn:hover,
 .hero-btn:focus {
-	color: var(--hover-color)
+	color: #ffffff;
+	background-color: var(--hover-color);
 }
 
 /* --Main Text-- */
@@ -161,6 +160,7 @@ body {
 .breadcrumbs-btn:hover,
 .breadcrumbs-btn:focus {
 	background-color: var(--hover-color);
+	color: #ffffff;
 }
 
 /* --Footer-- */
